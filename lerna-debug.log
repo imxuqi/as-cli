@@ -1,11 +1,15 @@
-0 silly argv {
-0 silly argv   _: [ 'add' ],
-0 silly argv   globs: [],
-0 silly argv   lernaVersion: '4.0.0',
-0 silly argv   '$0': '/opt/homebrew/bin/lerna',
-0 silly argv   pkg: 'core/cli'
-0 silly argv }
-1 notice cli v4.0.0
-2 verbose rootPath /Users/xuqi/Workspace/luna/as-cli-dev
-3 error Error: An unknown git error occurred
-3 error     at makeError (/Users/xuqi/Workspace/luna/as-cli-dev/node_modules/@npmcli/git/lib/make-error.js:28:13)
+72 error Error: Command failed with exit code 1: git add -- utils/get-npm-info/package.json utils/get-npm-info/package-lock.json utils/log/package.json utils/log/package-lock.json models/package/package.json models/package/package-lock.json models/command/package.json models/command/package-lock.json core/exec/package.json commands/init/package.json commands/init/package-lock.json core/cli/package.json core/cli/package-lock.json lerna.json
+72 error The following paths are ignored by one of your .gitignore files:
+72 error commands/init/package-lock.json
+72 error core/cli/package-lock.json
+72 error models/command/package-lock.json
+72 error models/package/package-lock.json
+72 error utils/get-npm-info/package-lock.json
+72 error utils/log/package-lock.json
+72 error hint: Use -f if you really want to add them.
+72 error hint: Turn this message off by running
+72 error hint: "git config advice.addIgnoredFile false"
+72 error     at makeError (/Users/xuqi/Workspace/luna/as-cli/node_modules/execa/lib/error.js:60:11)
+72 error     at handlePromise (/Users/xuqi/Workspace/luna/as-cli/node_modules/execa/index.js:118:26)
+72 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+72 error     at async Promise.all (index 0)
