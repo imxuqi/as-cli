@@ -134,7 +134,6 @@ function createDefaultConfig(){
 
 
 async function checkUpdate(){
-    console.log('check')
     const currentVersion = pkg.version
     const npmName = pkg.name
     const { getNpmSemverVersion } = require('@as/get-npm-info')
