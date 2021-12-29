@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "2af26d2ab4526531d8572c6b15fb4a40d4281f57",
+  "gitHead": "7a53d885ec4a05cb84b64baf23a0cf6c5e09f1d5",
   "publishConfig": {
     "access": "public"
   },
