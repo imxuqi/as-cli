@@ -1,6 +1,6 @@
 {
   "name": "@as-cli/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
   "homepage": "",
@@ -24,10 +24,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@as-cli/exec": "^1.0.2",
-    "@as-cli/get-npm-info": "^1.0.2",
-    "@as-cli/init": "^1.0.2",
-    "@as-cli/log": "^1.0.2",
+    "@as-cli/exec": "^1.0.4",
+    "@as-cli/get-npm-info": "^1.0.4",
+    "@as-cli/init": "^1.0.4",
+    "@as-cli/log": "^1.0.4",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^10.0.0",
