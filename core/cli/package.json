@@ -1,0 +1,40 @@
+{
+  "name": "@as/core",
+  "version": "1.0.6",
+  "description": "> TODO: description",
+  "author": "qi.xu <qi.xu@aispeech.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "as-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "4b932f0f7ae8d7b2d3dd4312fe215536ad26490d",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@as/exec": "file:../exec",
+    "@as/get-npm-info": "file:../../utils/get-npm-info",
+    "@as/init": "file:../../commands/init",
+    "@as/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.3",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  }
+}
