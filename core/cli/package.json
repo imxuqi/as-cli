@@ -19,15 +19,15 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "4b932f0f7ae8d7b2d3dd4312fe215536ad26490d",
+  "gitHead": "369b9409a6a3089009c16144097d48ff018b7e5c",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@as/exec": "file:../exec",
-    "@as/get-npm-info": "file:../../utils/get-npm-info",
-    "@as/init": "file:../../commands/init",
-    "@as/log": "file:../../utils/log",
+    "@as/exec": "^1.0.2",
+    "@as/get-npm-info": "^1.0.2",
+    "@as/init": "^1.0.2",
+    "@as/log": "^1.0.2",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^10.0.0",
