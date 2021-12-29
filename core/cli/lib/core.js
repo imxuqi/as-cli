@@ -11,7 +11,6 @@ const commander = require('commander')
 
 const pkg = require('../package.json')
 const log = require('@as/log')
-const init = require('@as/init')
 const exec = require('@as/exec')
 const constant = require('./const');
 let config
@@ -135,6 +134,7 @@ function createDefaultConfig(){
 
 
 async function checkUpdate(){
+    console.log('check')
     const currentVersion = pkg.version
     const npmName = pkg.name
     const { getNpmSemverVersion } = require('@as/get-npm-info')

@@ -4,7 +4,7 @@
 const log = require('npmlog')
 
 log.level = process.env.LOG_LEVEL ? process.env.LOG_LEVEL : 'info'
-log.heading = 'as-cli-dev' // 前缀
+log.heading = 'as-cli' // 前缀
 log.headingStyle = { fg:'white',bg:'black' }
 log.addLevel('success',2000,{ fg:'green',bold:true }) // 自定义命令
 

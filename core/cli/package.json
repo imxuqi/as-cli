@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "as-cli-dev": "bin/index.js"
+    "as": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
