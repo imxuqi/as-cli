@@ -1,11 +1,11 @@
-# `@as/format-path`
+# `@as-cli/format-path`
 
 > TODO: description
 
 ## Usage
 
 ```
-const formatPath = require('@as/format-path');
+const formatPath = require('@as-cli/format-path');
 
 // TODO: DEMONSTRATE API
 ```

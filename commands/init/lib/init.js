@@ -1,15 +1,15 @@
 'use strict';
 
 
-const Command = require('@as/command')
-const log = require('@as/log')
+const Command = require('@as-cli/command')
+const log = require('@as-cli/log')
 const fs = require('fs')
 const inquirer = require('inquirer')
 const fse = require('fs-extra')
 const semver = require('semver')
 const path = require('path')
 const getProjectTemplate = require('./getProjectTemplate');
-const Package = require('../../../core/exec/node_modules/@as/package/lib/package');
+const Package = require('../../../core/exec/node_modules/@as-cli/package/lib/package');
 
 
 
@@ -59,7 +59,7 @@ class InitCommand extends Command {
         const pkg = new Package({
             targetPath,storeDir,packageName:templateInfo.npmName,packageVersion:templateInfo.version
         })
-        const getSpinner = require('@as/utils').getSpinner
+        const getSpinner = require('@as-cli/utils').getSpinner
         if(!await pkg.exists()){
             const spinner = getSpinner('正在下载模板')
             spinner.start()

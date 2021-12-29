@@ -2,6 +2,6 @@
 
 const package = require('..');
 
-describe('@as/package', () => {
+describe('@as-cli/package', () => {
     it('needs tests');
 });

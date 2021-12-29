@@ -4,12 +4,12 @@ module.exports = exec;
 
 
 const cp = require('child_process')
-const Package = require('@as/package')
-const log = require('@as/log')
+const Package = require('@as-cli/package')
+const log = require('@as-cli/log')
 const path = require('path')
 
 const SETTINGS = {
-    init:'@as/log'
+    init:'@as-cli/log'
 }
 
 const CACHE_DIR = 'depencencies'

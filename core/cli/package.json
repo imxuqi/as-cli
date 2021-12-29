@@ -1,5 +1,5 @@
 {
-  "name": "@as/core",
+  "name": "@as-cli/core",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
@@ -24,10 +24,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@as/exec": "^1.0.2",
-    "@as/get-npm-info": "^1.0.2",
-    "@as/init": "^1.0.2",
-    "@as/log": "^1.0.2",
+    "@as-cli/exec": "^1.0.2",
+    "@as-cli/get-npm-info": "^1.0.2",
+    "@as-cli/init": "^1.0.2",
+    "@as-cli/log": "^1.0.2",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^10.0.0",

@@ -1,5 +1,5 @@
 {
-  "name": "@as/command",
+  "name": "@as-cli/command",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@as/log": "file:../../utils/log",
+    "@as-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "semver": "^7.3.5"
   }

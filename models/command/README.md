@@ -1,11 +1,11 @@
-# `@as/command`
+# `@as-cli/command`
 
 > TODO: description
 
 ## Usage
 
 ```
-const command = require('@as/command');
+const command = require('@as-cli/command');
 
 // TODO: DEMONSTRATE API
 ```

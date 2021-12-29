@@ -5,9 +5,9 @@ const fse = require('fs-extra')
 const pathExists = require('path-exists').sync
 const pkgDir = require('pkg-dir').sync
 const npminstall = require('npminstall')
-const formatPath = require('@as/format-path')
-const { getDefaultRegistry, getNpmLatestVersion }  = require('@as/get-npm-info')
-const { isObject } = require('@as/utils')
+const formatPath = require('@as-cli/format-path')
+const { getDefaultRegistry, getNpmLatestVersion }  = require('@as-cli/get-npm-info')
+const { isObject } = require('@as-cli/utils')
 
 class Package{
     constructor(options){

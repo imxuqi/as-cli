@@ -1,5 +1,5 @@
 {
-  "name": "@as/package",
+  "name": "@as-cli/package",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
@@ -24,9 +24,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@as/format-path": "file:../../utils/format-path",
-    "@as/get-npm-info": "file:../../utils/get-npm-info",
-    "@as/utils": "file:../../utils/utils",
+    "@as-cli/format-path": "file:../../utils/format-path",
+    "@as-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@as-cli/utils": "file:../../utils/utils",
     "fs-extra": "^10.0.0",
     "npminstall": "^5.3.1",
     "path-exists": "^4.0.0",

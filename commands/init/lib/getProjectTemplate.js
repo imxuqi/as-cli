@@ -1,4 +1,4 @@
-const request = require('@as/request')
+const request = require('@as-cli/request')
 
 module.exports = function(){
     return request({

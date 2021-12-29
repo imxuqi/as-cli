@@ -10,8 +10,8 @@ const path = require('path')
 const commander = require('commander')
 
 const pkg = require('../package.json')
-const log = require('@as/log')
-const exec = require('@as/exec')
+const log = require('@as-cli/log')
+const exec = require('@as-cli/exec')
 const constant = require('./const');
 let config
 const program = new commander.Command()
@@ -136,7 +136,7 @@ function createDefaultConfig(){
 async function checkUpdate(){
     const currentVersion = pkg.version
     const npmName = pkg.name
-    const { getNpmSemverVersion } = require('@as/get-npm-info')
+    const { getNpmSemverVersion } = require('@as-cli/get-npm-info')
     const lastVersion = await getNpmSemverVersion(currentVersion,npmName)
     if(lastVersion && semver.gt(lastVersion,currentVersion)){
         log.warn(`请手动更新${npmName}，当前版本${currentVersion}，最新版本${lastVersion}`)

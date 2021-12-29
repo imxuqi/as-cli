@@ -2,6 +2,6 @@
 
 const init = require('..');
 
-describe('@as/init', () => {
+describe('@as-cli/init', () => {
     it('needs tests');
 });

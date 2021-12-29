@@ -2,7 +2,7 @@
 
 const semver = require('semver')
 const colors = require('colors/safe')
-const log = require('@as/log')
+const log = require('@as-cli/log')
 const LOWEST_NODE_VERSION = '12.0.0'
 
 class Command {

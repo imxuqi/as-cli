@@ -2,6 +2,6 @@
 
 const utils = require('..');
 
-describe('@as/utils', () => {
+describe('@as-cli/utils', () => {
     it('needs tests');
 });

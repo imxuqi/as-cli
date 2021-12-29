@@ -1,5 +1,5 @@
 {
-  "name": "@as/init",
+  "name": "@as-cli/init",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@as/command": "file:../../models/command",
-    "@as/log": "file:../../utils/log",
-    "@as/package": "file:../../models/package",
-    "@as/request": "file:../../utils/request",
-    "@as/utils": "file:../../utils/utils",
+    "@as-cli/command": "file:../../models/command",
+    "@as-cli/log": "file:../../utils/log",
+    "@as-cli/package": "file:../../models/package",
+    "@as-cli/request": "file:../../utils/request",
+    "@as-cli/utils": "file:../../utils/utils",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
     "semver": "^7.3.5"

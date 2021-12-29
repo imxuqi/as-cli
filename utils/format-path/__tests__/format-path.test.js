@@ -2,6 +2,6 @@
 
 const formatPath = require('..');
 
-describe('@as/format-path', () => {
+describe('@as-cli/format-path', () => {
     it('needs tests');
 });
