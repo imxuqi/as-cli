@@ -1,6 +1,6 @@
 {
   "name": "@as/command",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@as/log": "file:../../utils/log",
     "colors": "^1.4.0",
-    "semver": "^7.3.5",
-    "@as/log": "file:../../utils/log"
+    "semver": "^7.3.5"
   }
 }

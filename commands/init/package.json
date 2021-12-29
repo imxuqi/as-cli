@@ -1,6 +1,6 @@
 {
   "name": "@as/init",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "qi.xu <qi.xu@aispeech.com>",
   "homepage": "",
@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "@as/command": "file:../../models/command",
-    "@as/package": "file:../../models/package",
     "@as/log": "file:../../utils/log",
+    "@as/package": "file:../../models/package",
     "@as/request": "file:../../utils/request",
     "@as/utils": "file:../../utils/utils",
     "fs-extra": "^10.0.0",
