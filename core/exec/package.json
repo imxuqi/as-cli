@@ -24,7 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@as-cli/log": "../../utils/log",
-    "@as-cli/package": "../../models/package"
-  }
+    "@as-cli/log": "^1.0.4",
+    "@as-cli/package": "^1.0.4"
+  },
+  "gitHead": "d68774f4dddda4fb477e354ee378161cfccc96a0"
 }
